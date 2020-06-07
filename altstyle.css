@@ -1,12 +1,12 @@
 body{
-    background-color: #A8DADC;
-    color :#1D3557;
+    background-color: #E63946;
+    color :#F1FAEE;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
  h2{
-     color: #457B9D;
-     font-weight: bold;
+    color :#A8DADC;
+    font-weight: bold;
  }
 
 .searchicon{
@@ -41,10 +41,18 @@ body{
 }
 
 .flexo-v {
+    height: 480px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 120px;
+    box-shadow: 5px 5px 20px rgba(68, 68, 68, 0.6);
+    border: #457B9D;
+    border-style: solid;
+    border-width: 20px;
 }
 
 .flexo-h {
@@ -78,7 +86,7 @@ body{
 }
 
 a{
-    color: #457B9D;
+    color: #A8DADC;
     font-weight: bold;
 }
 
